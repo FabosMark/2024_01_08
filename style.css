@@ -1,0 +1,89 @@
+body {
+    background-color: #629D66;
+    background-image: url(img/bg.png);
+    background-repeat: repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+main {
+    width: 900px;
+    text-align: center;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'h h h'
+    'as ar ar'
+    'f f f';
+    margin: 0 auto;
+}
+
+header {
+    grid-area: h;
+    color: white;
+    background-image: url(img/logo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+h1 {
+    font-size: 80px;
+    padding-left: 400px;
+}
+
+aside {
+    grid-area: as;
+}
+
+nav {
+    background-image: url(img/img02.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 200px;
+    background-color: #96A96F;
+}
+
+h3 {
+    background-color: #203926;
+    text-align: left;
+    color: white;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+article {
+    grid-area: ar;
+    width: 700px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+div {
+    width: 600px;
+    text-align: justify;
+}
+
+img {
+    margin: 5px;
+    float: left;
+}
+
+footer {
+    grid-area: f;
+    background-color: #203926;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 5px 10px 5px;
+    text-align: left;
+}
